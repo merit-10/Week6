@@ -1,0 +1,54 @@
+.member-page {
+  background-color: #08051a;
+  min-height: 100vh;
+}
+
+.search {
+  background-color: #100b2d;
+}
+
+.subscribe-header,
+.subscribe-table {
+  max-width: 960px;
+}
+
+.subscribe-header {
+  padding-top: 32px;
+}
+
+.subscribe-back-link {
+  margin-bottom: 32px;
+}
+
+.subscribe-list-section {
+  padding-bottom: 168px;
+}
+
+@media (max-width: 991.98px) {
+  .subscribe-header {
+    padding-top: 16px;
+  }
+
+  .subscribe-back-link {
+    margin-bottom: 24px;
+  }
+
+  .subscribe-list-section {
+    padding-bottom: 80px;
+  }
+}
+
+.plan-free {
+  color: #ffffff;
+  background-color: #342d56;
+}
+
+.plan-basic {
+  color: #9ad9cb;
+  background-color: #2b3b4e;
+}
+
+.plan-pro {
+  color: #ffd45a;
+  background-color: #3a3546;
+}

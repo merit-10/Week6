@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <title>about</title>
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+
+    <main class="member-page">
+      <section class="search py-6 py-lg-8">
+        <div class="container">
+          <div class="subscribe-header mx-auto">
+            <a href="#" class="subscribe-back-link d-inline-flex align-items-center gap-1 text-white text-decoration-none">
+              <i class="bi bi-chevron-left"></i>
+              返回上頁
+            </a>
+
+            <div class="d-flex justify-content-between align-items-center gap-4">
+              <div class="d-flex align-items-end gap-2">
+                <h3 class="subscribe-title fw-bold text-white mb-0">
+                  訂閱 AutoTasker 的用戶
+                </h3>
+                <span class="text-neutral-300 small mb-1">共 5 筆</span>
+              </div>
+
+              <div class="dropdown">
+                <button
+                  class="btn btn-dark border border-white border-opacity-12 dropdown-toggle px-3"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  所有方案
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="#">免費方案</a></li>
+                  <li><a class="dropdown-item" href="#">基礎方案</a></li>
+                  <li><a class="dropdown-item" href="#">進階方案</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="subscribe-list-section">
+        <div class="container">
+          <div class="subscribe-table mx-auto table-responsive">
+            <table class="table table-dark table-borderless align-middle mb-0">
+              <thead>
+                <tr class="border-bottom border-white border-opacity-12">
+                  <th class="fw-normal text-neutral-300">用戶名稱</th>
+                  <th class="fw-normal text-neutral-300">聯絡信箱</th>
+                  <th class="fw-normal text-neutral-300">方案</th>
+                  <th class="fw-normal text-neutral-300">訂閱日期</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="border-bottom border-white border-opacity-12">
+                  <td>Alice Wang</td>
+                  <td>alice@gmail.com</td>
+                  <td><span class="badge plan-free fw-normal">免費方案</span></td>
+                  <td>2026/01/12</td>
+                </tr>
+                <tr class="border-bottom border-white border-opacity-12">
+                  <td>Brian Li</td>
+                  <td>brian@company.com</td>
+                  <td><span class="badge plan-basic fw-normal">基礎方案</span></td>
+                  <td>2026/01/12</td>
+                </tr>
+                <tr class="border-bottom border-white border-opacity-12">
+                  <td>Cathy Chen</td>
+                  <td>cathy@startup.io</td>
+                  <td><span class="badge plan-pro fw-normal">進階方案</span></td>
+                  <td>2026/01/12</td>
+                </tr>
+                <tr class="border-bottom border-white border-opacity-12">
+                  <td>John Lin</td>
+                  <td>john Lin@startup.io</td>
+                  <td><span class="badge plan-pro fw-normal">進階方案</span></td>
+                  <td>2026/01/12</td>
+                </tr>
+                <tr class="border-bottom border-white border-opacity-12">
+                  <td>Allen Wang</td>
+                  <td>allenwang@startup.io</td>
+                  <td><span class="badge plan-pro fw-normal">進階方案</span></td>
+                  <td>2026/01/12</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>
