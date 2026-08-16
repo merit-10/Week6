@@ -18,6 +18,11 @@
 
 .banner-text {
   color: rgba($white, 0.72);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  text-align: center;
 }
 
 .banner-search {
@@ -31,6 +36,8 @@
 
   .form-control {
     padding: 12px 16px 12px 44px;
+    background-color: #fff;
+    border-color: #fff;
   }
 }
 
