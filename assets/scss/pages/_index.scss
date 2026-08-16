@@ -52,8 +52,14 @@
     min-height: 122px;
     background-color: rgba($white, 0.08);
     border-radius: 8px;
-  }
+    transition: 0.3s;
 
+    &:hover {
+    background-color: rgba($white, 0.16);
+    transform: translateY(-4px);
+
+  }
+ }
   .card-body {
     padding: 20px 12px;
   }
