@@ -1,0 +1,71 @@
+.member-page {
+  min-height: 100vh;
+  background: linear-gradient(
+    135deg,
+    #100b2d 0%,
+    #1b1940 55%,
+    #28264e 100%
+  );
+}
+
+.search {
+  background-color: transparent;
+}
+
+.subscribe-list-section {
+  padding-bottom: 168px;
+  background-color: transparent;
+}
+
+.subscribe-header,
+.subscribe-table {
+  max-width: 960px;
+}
+
+.subscribe-table .table {
+  --bs-table-bg: transparent;
+  --bs-table-color: #fff;
+  --bs-table-border-color: rgba(255, 255, 255, 0.12);
+}
+
+.subscribe-header {
+  padding-top: 32px;
+}
+
+.subscribe-back-link {
+  margin-bottom: 32px;
+}
+
+
+@media (max-width: 991.98px) {
+ .member-page {
+    padding-top: 66px;
+  }
+
+  .subscribe-header {
+    padding-top: 16px;
+  }
+
+  .subscribe-back-link {
+    margin-bottom: 24px;
+  }
+
+  .subscribe-list-section {
+    padding-bottom: 80px;
+  }
+}
+
+.plan-free {
+  color: #ffffff;
+  background-color: #342d56;
+}
+
+.plan-basic {
+  color: #9ad9cb;
+  background-color: #2b3b4e;
+}
+
+.plan-pro {
+  color: #ffd45a;
+  background-color: #3a3546;
+}

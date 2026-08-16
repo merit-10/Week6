@@ -1,0 +1,104 @@
+.logo {
+  width: 152px;
+}
+
+.navbar-search {
+  width: 320px;
+
+  .input-group-text,
+  .form-control {
+    background-color: $white;
+    border-color: $white;
+    color: $black;
+  }
+
+  .input-group-text {
+    padding-right: 0;
+  }
+
+  .form-control {
+    padding-left: 8px;
+  }
+}
+
+// 手機板的樣式
+.offcanvas-body {
+  .dropdown-menu {
+    display:block;
+    border: 0;
+    border-radius: 0;
+
+    .dropdown-item:hover {
+      background-color: rgba($white, 0.08);
+     
+    }
+  }
+}
+
+// 桌機的樣式
+@media (min-width: 992px) {
+  .offcanvas-body {
+    .navbar-nav {
+      align-items: center;
+      flex-direction: row;
+    }
+
+    .dropdown-menu:not(.show) {
+      display: none;
+    }
+
+    .dropdown-menu {
+      border: 1px solid rgba($white, 0.12);
+      backdrop-filter: blur(24px);
+    }
+    .dropdown-item {
+      min-width: 224px;
+    }
+  }
+}
+
+.offcanvas {
+  backdrop-filter: blur(24px);
+}
+
+@media (min-width: 992px) {
+  .offcanvas {
+    backdrop-filter: unset; 
+  }
+}
+
+.navbar-control-input {
+  padding: 9px 45px 9px 37px;
+}
+
+.navbar-search-control {
+  width: 320px;
+
+  .bi-search {
+    top: 50%;
+    left: 14px;
+    z-index: 2;
+    transform: translateY(-50%);
+  }
+}
+
+.navbar-search-control-mobile {
+  width: 100%;
+}
+
+.navbar-control-icon {
+  left: 13px;
+  color: $white;
+}
+
+.navbar-collapse {
+  background-color: rgba($white, 0.12);
+  backdrop-filter: blur(24px);
+}
+
+@media (min-width: 992px) {
+  .navbar-collapse {
+    background-color: unset;
+    backdrop-filter: unset;
+  }
+}
