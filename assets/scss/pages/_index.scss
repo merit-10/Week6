@@ -45,6 +45,14 @@
 
 .card {
   backdrop-filter: blur(24px);
+  transition: 0.3s;
+
+  &:hover {
+    background-color: rgba($white, 0.16);
+    border-color: rgba($white, 0.4) !important;
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba($black, 0.2);
+  }
 }
 
 .tool-category {
@@ -52,14 +60,9 @@
     min-height: 122px;
     background-color: rgba($white, 0.08);
     border-radius: 8px;
-    transition: 0.3s;
-
-    &:hover {
-    background-color: rgba($white, 0.16);
-    transform: translateY(-4px);
-
+    
   }
- }
+ 
   .card-body {
     padding: 20px 12px;
   }
