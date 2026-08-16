@@ -240,3 +240,15 @@
     margin-left: auto;
   }
 }
+
+.list-tool-card {
+  height: 100%;
+  border-radius: 8px;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: rgba($white, 0.16);
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba($black, 0.2);
+  }
+}
