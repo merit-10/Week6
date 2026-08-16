@@ -80,7 +80,19 @@
     z-index: 2;
     transform: translateY(-50%);
   }
+  .form-control {
+    color: $gray-700;
+    background-color: $white;
+    border-color: $white;
+
+    &::placeholder {
+      color: $gray-600;
+      opacity: 1;
+    }
+  }
 }
+
+
 
 .navbar-search-control-mobile {
   width: 100%;
@@ -88,7 +100,7 @@
 
 .navbar-control-icon {
   left: 13px;
-  color: $white;
+  color: $gray-600;
 }
 
 .navbar-collapse {

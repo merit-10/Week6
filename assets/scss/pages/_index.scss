@@ -38,6 +38,11 @@
     padding: 12px 16px 12px 44px;
     background-color: #fff;
     border-color: #fff;
+
+    &::placeholder {
+      color: $gray-600;
+      opacity: 1;
+    }
   }
 }
 
